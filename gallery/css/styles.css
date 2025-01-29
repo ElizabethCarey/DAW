@@ -1,0 +1,31 @@
+/* DAW.digital gallery style sheet */
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar {
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    letter-spacing: 4px;
+    background: black;
+    text-align: left;
+    box-shadow:  2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
