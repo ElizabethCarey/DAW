@@ -1,0 +1,61 @@
+/* DAW.digital events page style sheet */
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar {
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    letter-spacing: 4px;
+    background: black;
+    text-align: left;
+    box-shadow:  2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.upcoming h1 {
+    padding-top: 80px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.upcoming p {
+    padding-left: 400px;
+    text-align: left;
+    font-weight: lighter;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.past a {
+    color: black;
+}
+
+.past h1 {
+    padding-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+} 
+
+.past p {
+    padding-left: 400px;
+    text-align: left;
+    font-weight: lighter;
+    line-height: 3;
+    letter-spacing: 2px;
+}
