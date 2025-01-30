@@ -4,7 +4,6 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 .navbar {
@@ -24,9 +23,12 @@ body {
     font-size: 20px;
 }
 
-
 .navbar a:hover {
     text-decoration: underline;
+}
+
+.upcoming a {
+    color: black;
 }
 
 .upcoming h1 {
@@ -35,13 +37,18 @@ body {
     letter-spacing: 4px;
 }
 
-.upcoming p {
-    padding-left: 400px;
-    text-align: left;
+.upcoming {
+    text-align: center;
     font-weight: lighter;
-    line-height: 1.5;
     letter-spacing: 2px;
 }
+
+.upcoming-events {
+    line-height: 3;
+    display: inline-block;
+    text-align: left;
+}
+
 .past a {
     color: black;
 }
@@ -52,11 +59,15 @@ body {
     letter-spacing: 4px;
 } 
 
-.past p {
-    padding-left: 400px;
+.past {
     padding-bottom: 100px;
-    text-align: left;
+    text-align: center;
     font-weight: lighter;
-    line-height: 3;
     letter-spacing: 2px;
+}
+
+.past-events {
+    line-height: 3;
+    display: inline-block;
+    text-align: left;
 }
