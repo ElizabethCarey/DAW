@@ -54,3 +54,27 @@ body {
     font-size: 20px;
     text-align: center;
 }
+
+/* The following code is a media query to fix the font size & padding on mobile:  */
+
+@media screen and (max-width: 768px) {
+
+    .contact-us h1 {
+        font-weight: bold;
+        padding-top: 150px;
+        font-size: 28px;
+    }
+
+    .navbar {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .navbar a {
+        letter-spacing: 3px;
+        font-size: 9px;
+    }
+
+}

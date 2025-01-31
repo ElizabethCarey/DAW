@@ -47,3 +47,29 @@ h1 {
 .event-list a:hover {
     font-weight: bold;
 }
+
+/* The following code is a media query to fix the font size on mobile:  */
+
+@media screen and (max-width: 768px) {
+
+    .event-list h1 {
+        padding-top: 100px;
+        font-size: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .navbar {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .navbar a {
+        letter-spacing: 3px;
+        font-size: 9px;
+    }
+
+}
+

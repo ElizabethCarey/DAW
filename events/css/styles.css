@@ -71,3 +71,37 @@ body {
     display: inline-block;
     text-align: left;
 }
+
+/* The following code is a media query to fix the font size & padding on mobile:  */
+
+@media screen and (max-width: 768px) {
+
+    .upcoming h1,
+    .past h1 {
+        font-size: 20; /* Resets to the default size */
+    }
+
+    .upcoming h1 {
+        padding-top: 40px;
+    }
+
+    .past-events, 
+    .upcoming-events {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+
+    .navbar {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .navbar a {
+        letter-spacing: 3px;
+        font-size: 9px;
+    }
+
+}

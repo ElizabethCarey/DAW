@@ -32,7 +32,6 @@ body {
 .logo-container img {
     padding-top: 150px;
     padding-bottom: 10px;
-    height: 150px;
     width: 750px;
 }
 
@@ -54,4 +53,38 @@ body {
     font-size: 21.5px;
     font-weight: lighter;
     letter-spacing: 2px;
+}
+
+/* The following code is a media query to fix the logo size and font size on mobile:  */
+
+@media screen and (max-width: 768px) {
+
+    .logo-container img {
+        width: 90%; /* Makes the logo responsive within the screen width */
+        max-width: 300px; /* Prevents it from getting too large */
+        padding-top: 130px; /* Adjusts spacing for better mobile layout */
+    }
+
+    .content h1 {
+        letter-spacing: 5px;
+        font-size: 16px;
+    }
+
+    .content p {
+        font-size: 21px;
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+    .navbar {
+        width: 100%;
+        padding-right: 10px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .navbar a {
+        letter-spacing: 3px;
+        font-size: 9px;
+    }
 }

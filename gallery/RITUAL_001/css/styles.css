@@ -23,3 +23,13 @@ img {
     width: 500px;
     height: auto;
 }
+
+/* The following code is a media query to fix the size of images on mobile:  */
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 90%; /* Makes images responsive while maintaining aspect ratio */
+        max-width: 300px; /* Prevents images from being too large on small screens */
+        height: auto;
+    }
+}
