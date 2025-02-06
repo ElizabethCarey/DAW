@@ -1,17 +1,22 @@
 // global JS functions
 
-// Function to fade in the body when the site is first loaded
-function fadeInBody() {
-    let body = document.querySelector("body");
-    body.style.opacity = "0";
-    body.style.transition = "opacity 1s ease-in-out";
-    
-    setTimeout(() => {
-        body.style.opacity = "1";
-    }, 100);
+
+function animateLogoAndText() {
+    let logoText = document.querySelector(".logo-and-title");
+    if (logoText) {
+        logoText.style.opacity = "0";
+        logoText.style.transform = "translateY(100%)";
+        logoText.style.transition = "transform 1s ease-out, opacity 1s ease-out";
+        
+        setTimeout(() => {
+            logoText.style.opacity = "1";
+            logoText.style.transform = "translateY(0)";
+        }, 400);
+    }
 }
 
 document.addEventListener("DOMContentLoaded", function() {
+
     // Select all elements inside the body
     let elements = document.querySelectorAll(".sub-body *");
 
@@ -20,13 +25,16 @@ document.addEventListener("DOMContentLoaded", function() {
         element.style.opacity = "0";
         element.style.transition = "opacity 1s ease-in-out";
     });
-    
+
+    // animateLogoAndText();
+
     // Delay to ensure the transition effect takes place
     setTimeout(() => {
         elements.forEach(element => {
             element.style.opacity = "1"; // Gradually fade in elements
         });
     }, 100);
+
 });
 
 // homepage JS functions
