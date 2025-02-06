@@ -86,8 +86,6 @@ body {
 }
 
 .socials {
-    display: inline-block;
-    align-items: center;
     padding-top: 120px;
 }
 
@@ -96,7 +94,7 @@ body {
     letter-spacing: 3px;
     line-height: 4;
     font-size: 28px;
-    text-align: left;
+    text-align: center;
 }
 
 /* events page styles: */
