@@ -86,12 +86,17 @@ body {
 }
 
 .socials {
-    padding-top: 10vw;
-    text-align: center;
+    display: inline-block;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.socials p {
     font-weight: lighter;
-    letter-spacing: 0.5px;
+    letter-spacing: 3px;
     line-height: 4;
-    font-size: 25px;
+    font-size: 28px;
+    text-align: left;
 }
 
 /* events page styles: */
