@@ -1,5 +1,15 @@
 // global JS functions
 
+// Function to fade in the body when the site is first loaded
+function fadeInBody() {
+    let body = document.querySelector("body");
+    body.style.opacity = "0";
+    body.style.transition = "opacity 1s ease-in-out";
+    
+    setTimeout(() => {
+        body.style.opacity = "1";
+    }, 100);
+}
 
 document.addEventListener("DOMContentLoaded", function() {
     // Select all elements inside the body
