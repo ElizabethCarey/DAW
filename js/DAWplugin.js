@@ -45,14 +45,13 @@ document.getElementById("workspace").addEventListener("click", function() {
 
     // Define the original content (a div with class 'logo-and-text')
     let originalContent = 
-    `<div class="logo-and-text">
+    `
         <div class="logo-container">
             <img src="assets/dawlogotransparent.png" alt="DAW Logo">
         </div>
         <div class = "Digital-Audio-Workspace">
             <h1>Digital Audio Workspace. </h1>
-        </div>
-    </div>`; // original HTML content 
+        </div>`; // original HTML content 
 
     // Define the new content with the organization's description
     let newContent = `<p> <span class="bolded">Digital Audio Workspace</span> is a music technology organization committed to providing a collaborative 
