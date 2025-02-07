@@ -90,11 +90,8 @@ iframe {
     text-decoration: underline;
 }
 
-.socials {
-    padding-top: 8vw;
-}
-
 .socials p {
+    padding-top: 4.8vw;
     font-weight: lighter;
     letter-spacing: 1.2px;
     line-height: 4;
