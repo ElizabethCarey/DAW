@@ -91,7 +91,7 @@ iframe {
 }
 
 .socials p {
-    padding-top: 4.8vw;
+    padding-top: 100px;
     font-weight: lighter;
     letter-spacing: 1.2px;
     line-height: 4;
@@ -240,7 +240,7 @@ iframe {
     /* contact page styles: */ 
     
     .socials p {
-        padding-top: 100px;
+        padding-top: 150px;
         font-size: 20px;
     }
 
