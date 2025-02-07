@@ -1,20 +1,5 @@
 // global JS functions
 
-
-function animateLogoAndText() {
-    let logoText = document.querySelector(".logo-and-title");
-    if (logoText) {
-        logoText.style.opacity = "0";
-        logoText.style.transform = "translateY(100%)";
-        logoText.style.transition = "transform 1s ease-out, opacity 1s ease-out";
-        
-        setTimeout(() => {
-            logoText.style.opacity = "1";
-            logoText.style.transform = "translateY(0)";
-        }, 400);
-    }
-}
-
 document.addEventListener("DOMContentLoaded", function() {
 
     // Select all elements inside the body

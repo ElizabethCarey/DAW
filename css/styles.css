@@ -37,6 +37,12 @@ body {
     text-decoration: underline;
 }
 
+iframe {
+    border-radius: 12px;
+    width: 50%;
+    height: 100px;
+}
+
 /* homepage styles: */
 
 .logo-container img {
@@ -73,7 +79,6 @@ body {
     font-weight: bold;
 }
 
-
 /* contact page styles: */ 
 
 .socials a {
@@ -91,7 +96,7 @@ body {
 
 .socials p {
     font-weight: lighter;
-    letter-spacing: 3px;
+    letter-spacing: 1.2px;
     line-height: 4;
     font-size: 28px;
     text-align: center;
@@ -228,6 +233,11 @@ body {
         text-align: center;
         padding-left: 25vw;
         padding-right: 25vw;
+    }
+
+    iframe {
+        scale: 50%;
+        width: 95%;
     }
 
     /* contact page styles: */ 
