@@ -46,7 +46,7 @@ iframe {
 /* homepage styles: */
 
 .logo-container img {
-    padding-top: 15vw;
+    padding-top: 12vw;
     margin: 0;
     width: 40%;
 }
@@ -91,7 +91,7 @@ iframe {
 }
 
 .socials {
-    padding-top: 120px;
+    padding-top: 8vw;
 }
 
 .socials p {
@@ -241,14 +241,9 @@ iframe {
     }
 
     /* contact page styles: */ 
-
-    .contact-us h1 {
-        font-weight: bold;
-        padding-top: 100px;
-        font-size: 25px;
-    }
     
     .socials p {
+        padding-top: 100px;
         font-size: 20px;
     }
 
