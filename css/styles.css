@@ -274,6 +274,10 @@ iframe {
 
     /* gallery styles: */ 
 
+    .gallery h1 {
+        font-size: 20px;
+    }
+
     .images img {
         width: 90%; /* Makes images responsive while maintaining aspect ratio */
         max-width: 300px; /* Prevents images from being too large on small screens */
