@@ -172,7 +172,7 @@ iframe {
 .gallery h1 {
     font-family: Helvetica, Arial, sans-serif;
     color: black;
-    padding-top: 40px;
+    padding-top: 5vw;
     padding-left: 20%;
     text-align: left; 
     font-size: 30;
@@ -185,6 +185,7 @@ iframe {
 .images {
     padding-top: 50px;
     scroll-padding-top: 50px;
+    padding-bottom: 2vw;
 }
 
 .images img {
@@ -275,6 +276,7 @@ iframe {
     /* gallery styles: */ 
 
     .gallery h1 {
+        padding-top: 10vw;
         font-size: 20px;
     }
 
