@@ -198,6 +198,11 @@ iframe {
     font-weight: bolder;
 }
 
+.blog-posts .post1 {
+    padding-top: 14vw;
+    font-size: 3vw;
+}
+
 /* media queries: */
 
 @media screen and (max-width: 768px) {
@@ -288,12 +293,12 @@ iframe {
 
     .blog-posts {
         padding-top: 10vw;
-        text-align: left;
-        align-items: center;
+        text-align: center;
     }
 
     .blog-posts h1 {
-        font-size: 3vw;
+        padding-top: 10vw;
+        font-size: 5vw;
     }
 
     .blog-posts img {
