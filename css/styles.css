@@ -46,7 +46,7 @@ iframe {
 /* homepage styles: */
 
 .logo-container img {
-    padding-top: 12vw;
+    padding-top: 17vw;
     margin: 0;
     width: 40%;
 }
@@ -81,23 +81,16 @@ iframe {
 
 /* contact page styles: */ 
 
-.socials a {
-    color: black;
-    text-decoration: none;
+.socials { 
+    display: inline-flex;
+    gap: 60px;
 }
 
-.socials a:hover {
-    text-decoration: underline;
+.socials img {
+    padding-top: 17vw;
+    width: 10vw;
 }
 
-.socials p {
-    padding-top: 100px;
-    font-weight: lighter;
-    letter-spacing: 1.2px;
-    line-height: 4;
-    font-size: 28px;
-    text-align: center;
-}
 
 /* events page styles: */
 
@@ -240,10 +233,15 @@ iframe {
 
     /* contact page styles: */ 
     
-    .socials p {
-        padding-top: 150px;
-        font-size: 20px;
+    .socials {
+        display: block;
+        gap: 100px;
     }
+
+    .socials img {
+        padding-top: 270px;
+    }
+
 
     /* events page styles: */
 
@@ -288,8 +286,23 @@ iframe {
 
     /* blog styles: */
 
-    .blog-text h1 {
+    .blog-posts {
+        padding-top: 10vw;
+        text-align: left;
+        align-items: center;
+    }
+
+    .blog-posts h1 {
         font-size: 3vw;
+    }
+
+    .blog-posts img {
+        height: auto;
+        width: 300px;
+    }
+
+    .blog-posts p {
+        font-size: 1vw;
     }
 
 }
