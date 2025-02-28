@@ -2,6 +2,23 @@
 
 /* global styles: */
 
+@keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+}
+
+@keyframes slideInFromTop {
+    from {
+      transform: translateY(-180px); /* Start 100px above its final position */
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+
 footer p {
     padding-top: 5vw;
     color: black;
@@ -18,10 +35,11 @@ body {
 }
 
 .navbar {
+    font-weight: lighter;
     padding-left: 20px;
     padding-top: 20px;
+    letter-spacing: -0.13px;
     padding-bottom: 15px;
-    letter-spacing: 0.5px;
     text-align: left;
 }
 
@@ -34,21 +52,24 @@ body {
 
 
 .navbar a:hover {
+    color: red;
     text-decoration: underline;
 }
 
-iframe {
-    border-radius: 12px;
-    width: 50%;
-    height: 100px;
+.sub-body {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
 }
+
 
 /* homepage styles: */
 
 .logo-container img {
-    padding-top: 17vw;
+    padding-top: 22vw;
     margin: 0;
-    width: 40%;
+    width: 45%;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation: slideInFromTop 1s ease-out forwards;
 }
 
 .Digital-Audio-Workspace {
@@ -65,18 +86,25 @@ iframe {
     font-weight: bold;
 }
 
-.logo-and-title p {
-    padding-top: 16vw;
+.bolded {
+    font-weight: bold;
+}
+
+.mission-statement h1 {
+    padding-top: 14vw;
+    font-size: 2.5vw;
+    text-align: left;
+    padding-left: 20vw;
+}
+
+.mission-statement p {
+    padding-top: 0.5vw;
     font-size: 1.5vw;
-    font-weight: normal;
+    font-weight: lighter;
     text-align: left;
     padding-bottom: 47px;
     padding-left: 20vw;
     padding-right: 20vw;
-}
-
-.bolded {
-    font-weight: bold;
 }
 
 /* contact page styles: */ 
@@ -88,7 +116,7 @@ iframe {
 
 .socials img {
     padding-top: 17vw;
-    width: 10vw;
+    width: 8vw;
 }
 
 .socials img:hover {
@@ -107,49 +135,25 @@ iframe {
 
 /* events page styles: */
 
-.upcoming a {
-    color: black;
-}
-
-.upcoming h1 {
-    padding-top: 100px;
-    font-weight: bold;
-    letter-spacing: 4px;
-}
-
-.upcoming {
-    text-align: center;
-    font-weight: lighter;
-    letter-spacing: 2px;
-}
-
-.upcoming-events {
-    line-height: 3;
-    display: inline-block;
-    text-align: left;
-}
-
-.past a {
-    color: black;
-}
-
-.past h1 {
-    padding-bottom: 20px;
-    font-weight: bold;
-    letter-spacing: 4px;
-} 
-
-.past {
-    padding-bottom: 100px;
-    text-align: center;
-    font-weight: lighter;
-    letter-spacing: 2px;
-}
 
 .past-events {
-    line-height: 3;
+    padding-top: 4vw;
     display: inline-block;
     text-align: left;
+}
+
+.past-events p {
+    font-weight: lighter;
+    line-height: 3.5;
+    letter-spacing: 1.5px;
+}
+
+.past-events a {
+    color: black;
+}
+
+.past-events a:hover {
+    color: red;
 }
 
 /* gallery navigation page styles: */ 
@@ -159,7 +163,7 @@ iframe {
     /*text-shadow: 1px 1px 2px rgb(0 0 0 / 10%);*/
     padding-top: 90px;
     padding-bottom: 100px;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     font-size: 40px;
     font-weight: lighter;
 }
@@ -170,7 +174,8 @@ iframe {
 }
 
 .event-list a:hover {
-    font-weight: bold;
+    text-decoration:underline;
+    color: red;
 }
 
 /* gallery styles: */ 
@@ -244,9 +249,11 @@ iframe {
         padding-right: 25vw;
     }
 
-    iframe {
-        scale: 50%;
-        width: 95%;
+    .mission-statement h1 {
+        font-size: 6vw;
+    }
+    .mission-statement p {
+        font-size: 4vw;
     }
 
     /* contact page styles: */ 
@@ -263,17 +270,7 @@ iframe {
 
     /* events page styles: */
 
-    .upcoming h1,
-    .past h1 {
-        font-size: 18px; /* Resets to the default size */
-    }
-
-    .upcoming h1 {
-        padding-top: 100px;
-    }
-
-    .past-events, 
-    .upcoming-events p {
+    .past-events p {
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 10px;
