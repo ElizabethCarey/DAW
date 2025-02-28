@@ -74,33 +74,15 @@ body {
 /* homepage styles: */
 
 .logo-container img {
-    padding-top: 22vw;
+    padding-top: 20vw;
     margin: 0;
     width: 45%;
     animation: fadeIn 2s ease-in-out forwards;
     animation: slideInFromTop 1s ease-out forwards;
 }
 
-.Digital-Audio-Workspace {
-    max-width: 800px;
-    margin: 0 auto;
-    font-size: 18px;
-    color: black;
-    line-height: 1.6;
-}
-
-.Digital-Audio-Workspace h1 {
-    letter-spacing: 0px;
-    font-size: 3.4vw;
-    font-weight: bold;
-}
-
-.bolded {
-    font-weight: bold;
-}
-
 .mission-statement h1 {
-    padding-top: 14vw;
+    padding-top: 12vw;
     font-size: 2.5vw;
     text-align: left;
     padding-left: 20vw;
@@ -234,9 +216,20 @@ body {
 
 @media screen and (max-width: 768px) {
 
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: right;
+        padding: 15px;
+        font-size: 12px;
+        border-radius: 0; /* Remove border-radius for a full-width look */
+    }
+
     .navbar {
-        padding-right: 10vw;
-        padding-left: 10vw;
+        padding-left: 0px;
         text-align: center;
     }
 
@@ -244,25 +237,20 @@ body {
         font-size: 2vw;
     }
 
-    .logo-and-title img {
+    .logo-container img {
         padding-top: 250px;
         width: 50%;
     }
 
-    .logo-and-title p {
+    .mission-statement {
         padding-top: 100px;
-        font-size: 4vw;
-        font-weight: normal;
-        text-align: center;
-        padding-left: 25vw;
-        padding-right: 25vw;
     }
 
     .mission-statement h1 {
-        font-size: 6vw;
+        font-size: 4.8vw;
     }
     .mission-statement p {
-        font-size: 4vw;
+        font-size: 1.8vw;
     }
 
     /* contact page styles: */ 
@@ -280,8 +268,7 @@ body {
     /* events page styles: */
 
     .past-events p {
-        padding-left: 20px;
-        padding-right: 20px;
+        margin: 2;
         padding-bottom: 10px;
         font-size: 10px;
     }
@@ -328,5 +315,7 @@ body {
     .blog-posts p {
         font-size: 1vw;
     }
+
+    
 
 }
