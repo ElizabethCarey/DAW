@@ -19,6 +19,15 @@
     }
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-top-left-radius: 10px;
+}
+
 footer p {
     padding-top: 5vw;
     color: black;
@@ -213,7 +222,7 @@ body {
     padding-top: 250px;
     letter-spacing: 3px;
     font-size: 60px;
-    font-weight: bolder;
+    font-weight: normal;
 }
 
 .blog-posts .post1 {
