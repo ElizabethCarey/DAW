@@ -268,7 +268,9 @@ body {
     /* events page styles: */
 
     .past-events p {
-        margin: 2;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        padding-top: 70px;
         padding-bottom: 10px;
         font-size: 10px;
     }
@@ -276,7 +278,7 @@ body {
     /* gallery navigation page styles: */ 
 
     .event-list h1 {
-        padding-top: 100px;
+        padding-top: 70px;
         font-size: 20px;
         padding-left: 20px;
         padding-right: 20px;
